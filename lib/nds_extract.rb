@@ -17,7 +17,7 @@ def directors_totals(nds)
       column_index += 1
     end 
     director_name = nds[row_index][:name]
-    result[:director_name] = total_gross 
+    result["director_name"] = total_gross 
     row_index += 1 
   end
   result
