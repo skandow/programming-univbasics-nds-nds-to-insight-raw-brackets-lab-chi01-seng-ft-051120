@@ -12,7 +12,7 @@ def directors_totals(nds)
   while row_index < nds.length do 
     total_gross = 0 
     column_length = 0 
-      while column_length < nds[]
+      while column_length < nds[row_index][:movies]
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
